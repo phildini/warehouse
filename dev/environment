@@ -38,3 +38,5 @@ TOKEN_EMAIL_SECRET="an insecure email verification secret key"
 TOKEN_TWO_FACTOR_SECRET="an insecure two-factor auth secret key"
 
 WAREHOUSE_LEGACY_DOMAIN=pypi.python.org
+
+HYPERMEDIA_API=api.pypi.org
