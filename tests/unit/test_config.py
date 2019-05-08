@@ -276,9 +276,9 @@ def test_configure(monkeypatch, settings, environment, other_settings):
     ]
     assert configurator_obj.include.calls == (
         [
-            pretend.call(".api")
             pretend.call("pyramid_services"),
             pretend.call(".metrics"),
+            pretend.call(".api"),
             pretend.call(".csrf"),
         ]
         + [
